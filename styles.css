@@ -1,0 +1,45 @@
+body{
+	background: #383a3d;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: #fff;
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.social-text{
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+  .social-icon:hover{
+     color: #4481eb;
+     border-color: #4481eb;
+ } 
+ 

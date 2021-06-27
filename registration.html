@@ -37,23 +37,38 @@
            <input type="date" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="">
         </div>
         <div class="form-group">
+          <label for="InputEmail1">Age</label>
+           <input type="number" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="">
+        </div>
+        <div class="form-group">
           <label for="InputPassword1">Profile pic</label>
           <input type="file" class="form-control" id="InputPassword1" placeholder="">
         </div>
         <div class="form-group">
           <label for="InputPassword1">Short bio</label>
-          <input type="text" class="form-control" id="InputPassword1" placeholder="Tell us about you">
+          <textarea class="form-control" id="inputZip" maxlength="150" placeholder="Tell us about yourself"></textarea>
+         
         </div>
 
-       
-        <section class="gender">
+        <div class="form-group col-md-4">
+          <label for="inputState">Gender</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+        <!-- <section class="gender">
           <label for="InputPassword1">Gender</label>
 
             <select name='gender' aria-placeholder="gender">
                 <option value="female">Female</option>
                 <option value="male">Male</option>
                 <option value="Other">Other</option>
-            </select>
+            </select> -->
+            
+              
+            
         <button type="submit" class="btn btn-primary btn-block">Register</button>
         <!-- <div class="form-footer">
           <p> Don't have an account? <a href="register.html">Sign Up</a></p>
